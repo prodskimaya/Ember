@@ -1,5 +1,6 @@
 workspace "Ember"
     architecture "x64"
+    startproject "Sandbox"
 
     configurations 
     { 
@@ -42,7 +43,7 @@ project "Ember"
 
         postbuildcommands
 		{
-			("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox")
+			("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox/")
 		}
 
     filter "configurations:Debug"
@@ -74,7 +75,7 @@ project "Sandbox"
 
     includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include",
+		"Ember/vendor/spdlog/include",
         "Ember/src"
 	}
 
