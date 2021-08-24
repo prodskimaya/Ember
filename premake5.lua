@@ -19,6 +19,9 @@ project "Ember"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "ebpch.h"
+    pchsource "Ember/src/ebpch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",

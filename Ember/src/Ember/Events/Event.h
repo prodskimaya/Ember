@@ -2,9 +2,6 @@
 
 #include "Ember/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Ember
 {
 	// Source: Hazel Repository, written by TheCherno
