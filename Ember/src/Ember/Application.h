@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Ember/Events/Event.h"
 
 namespace Ember {
 
