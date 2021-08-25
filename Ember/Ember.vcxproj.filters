@@ -35,6 +35,8 @@
       <Filter>Ember</Filter>
     </ClInclude>
     <ClInclude Include="src\ebpch.h" />
+    <ClInclude Include="src\Ember\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ember\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>Ember</Filter>
     </ClCompile>
     <ClCompile Include="src\ebpch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>

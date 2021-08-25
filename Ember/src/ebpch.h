@@ -12,6 +12,8 @@
 #include <unordered_set>
 #include <sstream>
 
+#include "Ember/Log.h"
+
 #ifdef EB_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif
